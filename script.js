@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const observerOptions = {
-        threshold: 0.5 // Adjust this threshold based on when you want to trigger the change
+        threshold: 0.1 // Adjust this threshold based on when you want to trigger the change
     };
 
     const observer = new IntersectionObserver(changeActivePage, observerOptions);
